@@ -22,6 +22,7 @@ public class PostController {
     private final PostService postService;
 
     // 게시글 작성 API
+    // 게시글을 작성함.
     @PostMapping("")
     @Operation(summary = "게시글 작성", description = "게시글을 작성합니다.")
     @ApiResponses(value = {
